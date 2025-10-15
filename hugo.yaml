@@ -44,6 +44,9 @@ params:
       icon: envelope
       icon_pack: fas
 
+  customCSS:
+    - css/custom.css
+
 markup:
   markup: goldmark
   goldmark:
@@ -75,3 +78,8 @@ languages:
       # Text to override default footer text (markdown allowed)
       footerText: >-
         Consultancy. Automation. Development.
+
+security:
+  enableInlineShortcodes: true
+
+removePathAccents: true
