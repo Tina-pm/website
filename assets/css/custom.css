@@ -14,3 +14,7 @@
 .team-member {
   margin-bottom: 20px;
 }
+
+.section .container .markdown {
+  text-align: left !important;
+}
