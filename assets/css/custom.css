@@ -18,3 +18,20 @@
 .section .container .markdown {
   text-align: left !important;
 }
+
+#projects .columns{
+  justify-content: center;
+}
+
+.modal-card-title {
+  font-size: 2rem;
+}
+
+.modal-card-body {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.modal-card-body img {
+  display: none;
+}
