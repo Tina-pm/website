@@ -1,0 +1,5 @@
+nav_main:
+  other: home
+
+nav_backToSection:
+  other: "{{ .Title }}"
