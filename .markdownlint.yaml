@@ -1,0 +1,4 @@
+# Allow br element in markdown content
+MD033:
+  allowed_elements:
+    - br
