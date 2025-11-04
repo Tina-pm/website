@@ -17,7 +17,7 @@ params:
   # Show rss button in navigation
   showRSSButton: false
   # Turn on/off the fade-in effect
-  fadeIn: true
+  fadeIn: false
   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
   fadeInIndex: false
   dateFormat: Jan 2, 2006
@@ -25,7 +25,7 @@ params:
   # Configure the home page
   home:
     # Input either "medium" or "large" or "fullheight"
-    introHeight: fullheight
+    introHeight: medium
     # Show your current local time in contact section
     localTime: false
     # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -74,4 +74,4 @@ languages:
         Tina and the freelancers, we make your IT life easier
       # Text to override default footer text (markdown allowed)
       footerText: >-
-        Consultancy. Automation. Development. Dreams.
+        Consultancy. Automation. Development.
