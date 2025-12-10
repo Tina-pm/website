@@ -40,9 +40,15 @@ params:
   # Icon pack "fab" includes social network icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
   # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   social:
+    - url: https://github.com/Tina-pm
+      icon: github
+      icon_pack: fab
     - url: mailto:info@tina.pm
       icon: envelope
       icon_pack: fas
+
+  customCSS:
+    - css/custom.css
 
 markup:
   markup: goldmark
@@ -75,3 +81,8 @@ languages:
       # Text to override default footer text (markdown allowed)
       footerText: >-
         Consultancy. Automation. Development.
+
+security:
+  enableInlineShortcodes: true
+
+removePathAccents: true

@@ -1,0 +1,11 @@
+<div class="team-container">
+  {{ $members := .Site.Data.team }}
+  {{ range $members }}
+    <div class="team-member">
+      <a href="/team#{{ .name | urlize }}">
+        <img src="{{ .photo }}" alt="{{ .name }}" style="width:100px;height:100px;border-radius:50%;">
+        <div>{{ .name }}</div>
+      </a>
+    </div>
+  {{ end }}
+</div>
