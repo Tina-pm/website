@@ -1,0 +1,77 @@
+baseURL: https://tina.pm/
+theme: introduction
+
+# For a configuration example of introduction theme, see
+# https://github.com/victoriadrake/hugo-theme-introduction/blob/master/exampleSite/config.toml
+
+
+# Default language for multilingual sites
+DefaultContentLanguage: en
+params:
+  # Choose "light" or "dark" or "auto"
+  themeStyle: auto
+  # Path to favicon file
+  # favicon: "/img/fav.ico"
+  # Show navigation menu
+  showMenu: true
+  # Show rss button in navigation
+  showRSSButton: false
+  # Turn on/off the fade-in effect
+  fadeIn: false
+  # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
+  fadeInIndex: false
+  dateFormat: Jan 2, 2006
+
+  # Configure the home page
+  home:
+    # Input either "medium" or "large" or "fullheight"
+    introHeight: medium
+    # Show your current local time in contact section
+    localTime: false
+    # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+    timeZone: Europe/Dublin
+    # Language specific format to use
+    timeFormat: en-GB
+  projects:
+    # Use a layout with two columns instead of three
+    useTwoColumns: false
+
+  # Social icons appear in introduction and contact section. Add as many more as you like.
+  # Icon pack "fab" includes social network icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
+  # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
+  social:
+    - url: mailto:info@tina.pm
+      icon: envelope
+      icon_pack: fas
+
+markup:
+  markup: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    # For styles, see https://xyproto.github.io/splash/docs/longer/all.html
+    style: solarized-dark
+    tabWidth: 2
+
+languages:
+  en:
+    languageName: English
+    languageCode: en-GB
+    contentDir: content/en
+    weight: 0
+    title: Tina and the freelancers
+    params:
+      # Max 160 characters show in search results
+      description: >-
+        Tina and the freelancers, we make your IT life easier
+      # Text to override default footer text (markdown allowed)
+      footerText: >-
+        Consultancy. Automation. Development.
